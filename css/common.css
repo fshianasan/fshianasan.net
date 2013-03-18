@@ -1,0 +1,83 @@
+@charset "utf-8";
+
+html {}
+body {
+    margin: 0;
+    padding: 20px 0 0;
+    font-family: "Segoe UI", Arial, Meiryo, sans-serif;
+    color:  #333;
+    border-top:  4px solid #8c8;
+}
+
+div, p, strong, span { margin: 0; padding: 0; }
+img { border: 0; }
+
+a:link, a:visited { color: #333; }
+
+
+#PAGEBODY {
+    margin: 0 auto;
+    padding: 0;
+    width: 728px;
+}
+footer {
+    padding: 15px 0;
+    font-size: 16px;
+    text-align: center;
+    border-top: 1px solid #ccc;
+    clear: both;
+}
+footer p {
+    padding: 4px;
+}
+
+section {
+    margin-bottom: 18px;
+}
+
+strong.Title { font-size: 18px; }
+p.Name { font-size: 84px; }
+
+p.Text {
+    font-size: 42px;
+}
+p.Desc {
+    color: #777;
+    font-size: 18px;
+}
+span.TTitle {
+    color: #06d;
+    font-size: 18px;
+}
+
+p.P_Name { margin-bottom: 12px; font-size: 40px; }
+p.P_Desc { font-size: 24px; }
+p.P_Icon {
+    margin: 0 12px 12px 0;
+    float: left;
+}
+p.P_Icon img {
+    width: 180px;
+    height: 180px;
+}
+
+div.Ids {
+    width: 360px;
+    float: left;
+}
+div.Ids ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+div.Ids ul li {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+div.Ids ul li img {
+    margin-right: 6px;
+    vertical-align: middle;
+}
+
+img.CodecademyIcon { width: 60px; height: 60px; }
