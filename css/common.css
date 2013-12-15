@@ -6,57 +6,76 @@ body {
     padding: 20px 0 0;
     font-family: "Segoe UI", Arial, Meiryo, sans-serif;
     color:  #333;
-    border-top:  4px solid #8c8;
 }
 
 div, p, strong, span { margin: 0; padding: 0; }
 img { border: 0; }
 
 a:link, a:visited { color: #333; }
+a:hover { color: #000; }
 
-
-#PAGEBODY {
+div.container {
     margin: 0 auto;
     padding: 0;
     width: 728px;
 }
+
+header {
+	margin-bottom: 16px;
+	padding: 16px 0;
+	text-align:center;
+	clear: both;
+}
+header h1 {
+	font-size: 48px;
+	margin-bottom: 12px;
+}
+header p { padding: 4px; }
+
 footer {
-    padding: 15px 0;
+    padding: 16px 0;
     font-size: 16px;
     text-align: center;
-    border-top: 1px solid #ccc;
     clear: both;
 }
-footer p {
-    padding: 4px;
-}
+footer p { padding: 4px; }
 
 section {
-    margin-bottom: 18px;
+	padding: 16px 0px;
+  margin-bottom: 18px;
+	clear: both;
+	overflow: hidden;
 }
 
-strong.Title { font-size: 18px; }
+section:nth-child(even) {
+	color: #FFF;
+	background-color: #0a5;
+}
+section:nth-child(even) a { color: #fff; }
+
+h2 {
+	font-size: 24px;
+	margin-bottom:12px;
+}
+
 p.Name { font-size: 84px; }
-
-p.Text {
-    font-size: 42px;
-}
+p.Text { font-size: 42px; }
 p.Desc {
-    color: #777;
-    font-size: 18px;
+  color: #e6e6e6;
+  font-size: 18px;
 }
 span.TTitle {
-    color: #06d;
-    font-size: 18px;
+  color: #06d;
+  font-size: 18px;
 }
 
-p.P_Name { margin-bottom: 12px; font-size: 40px; }
-p.P_Desc { font-size: 24px; }
-p.P_Icon {
-    margin: 0 12px 12px 0;
+p#P_Name { margin-bottom: 12px; font-size: 40px; }
+p#P_Desc { font-size: 24px; }
+p#P_Icon {
+    margin: 0 12px 0 0;
     float: left;
 }
-p.P_Icon img {
+p#P_Icon img {
     width: 180px;
     height: 180px;
 }
@@ -64,6 +83,7 @@ p.P_Icon img {
 div.Ids {
     width: 360px;
     float: left;
+		display: block;
 }
 div.Ids ul {
     margin: 0;
@@ -73,7 +93,7 @@ div.Ids ul {
 div.Ids ul li {
     display: block;
     margin-bottom: 8px;
-    font-size: 16px;
+    font-size: 18px;
 }
 div.Ids ul li img {
     margin-right: 6px;
