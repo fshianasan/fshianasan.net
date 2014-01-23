@@ -17,7 +17,7 @@ a:hover { color: #000; }
 div.container {
     margin: 0 auto;
     padding: 0;
-    width: 728px;
+    width: 768px;
 }
 
 header {
@@ -46,7 +46,6 @@ section {
 	clear: both;
 	overflow: hidden;
 }
-
 section:nth-child(even) {
 	color: #FFF;
 	background-color: #0a5;
@@ -54,15 +53,23 @@ section:nth-child(even) {
 section:nth-child(even) a { color: #fff; }
 
 h2 {
+	margin: 0 0 18px 0;
 	font-size: 24px;
-	margin-bottom:12px;
 }
 
 p.Name { font-size: 84px; }
-p.Text { font-size: 42px; }
+p.Text {
+	margin-bottom: 4px;
+	font-size: 42px;
+	line-height: 1.1;
+}
 p.Desc {
   color: #e6e6e6;
   font-size: 18px;
+}
+span.Desc {
+	color: #e6e6e6;
+	font-size: 18px;
 }
 span.TTitle {
   color: #06d;
